@@ -1,0 +1,74 @@
+# --- Python 基础 ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- 虚拟环境 (最占用空间，必须忽略) ---
+venv/
+env/
+ENV/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.conda/
+conda-env/
+
+# --- 深度学习模型权重 (巨大，必须忽略) ---
+# 如果不忽略，你的 GitHub 仓库会因为超过 100MB 而无法推送
+*.ckpt
+*.safetensors
+*.pth
+*.pt
+*.bin
+*.onnx
+*.h5
+*.weights
+/models/
+/weights/
+
+# --- 数据集 ---
+/data/
+/datasets/
+*.zip
+*.tar
+*.gz
+*.7z
+
+# --- IDE (编辑器) 配置文件 ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# --- 操作系统临时文件 ---
+.DS_Store
+Thumbs.db
+
+# --- 日志和临时文件 ---
+*.log
+logs/
+temp/
+tmp/
+
+西电课堂/
