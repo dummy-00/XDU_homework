@@ -1,2 +1,2 @@
-/#XDU homeword
+XDU homework
 
